@@ -1,0 +1,215 @@
+body{
+    background-color: #540c0c;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(249, 246, 246);
+    font-size: 40px;
+    Font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+
+.login-font{ 
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color:azure;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+
+input{
+    border-radius: 20px;
+    font-size:medium;
+    box-shadow: 0 0 5px 0 #000;
+    width: 300px;
+    height: 40px;
+    }
+
+    label{
+        display: block;
+        margin-top: 5px;
+        text-transform: unset;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .btn1{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        font-size: small;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        font-size: medium;
+        margin: 8px;
+
+    }
+    .btn-input-btn{
+        width: 70px;
+        height: 30px;
+         cursor: pointer;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        outline: none;
+        transition: 1s ease-in-out;
+        color: antiquewhite;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+    }
+    .btn-input-btn2{
+        width: 150px;
+        height: 40px;
+         cursor: pointer;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        outline: none;
+        transition: 1s ease-in-out;
+        color: antiquewhite;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+    }
+    .btn-input-btn3{
+        width: 100px;
+        height: 40px;
+         cursor: pointer;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        outline: none;
+        transition: 1s ease-in-out;
+        color: antiquewhite;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+    }
+    ul{
+        
+        color: white;
+        font-size: large;
+        
+    }
+    li{
+        padding: 25px;
+        display: inline;
+        display: inline-block;
+         
+    }
+
+
+    .menu-i {
+        background-color: rgb(5, 5, 5);
+       height: 160px;
+        position: relative;
+        top: -19px;
+    }
+
+    .link{ color: aliceblue;
+        text-decoration: none;
+
+    }
+
+  img {
+        
+        width: 35rem;
+        height: 22rem;
+    }
+
+    .image{ 
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 10%;
+        margin-left: 10px;
+        position: relative;
+        top: -30px;
+        
+    }
+
+    .container {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      padding: 8%;
+      top: -80px;
+      
+}
+.ico1{
+    width: 70px;
+    height: 70px;
+}
+
+.icons1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.divcadastro {
+        text-align: center;
+        margin-top: 10%;
+}
+.btn3{
+  
+        background-color: rgb(255, 255, 255);
+        font-size: small;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        font-size: medium;
+        margin: 8px;
+}
+
+#icons3 { 
+    position: absolute;
+    top: 48.5%;
+    left: 59%;
+    transform: translate(-50%);
+    background: url('./img-icon/show.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#icons3.hide{
+    background: url('./img-icon/hide.png');
+    background-size: cover;
+
+}
+#icons4 { 
+    position: absolute;
+    top: 58.2%;
+    left: 59%;
+    transform: translate(-50%);
+    background: url('./img-icon/show.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#icons4.hide{
+    background: url('./img-icon/hide.png');
+    background-size: cover;
+
+}
+#icon { 
+    position: absolute;
+    top: 67%;
+    left: 29%;
+    transform: translate(-50%);
+    background: url('./img-icon/show.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#icon.hide{
+    background: url('./img-icon/hide.png');
+    background-size: cover;
+
+}
